@@ -1,0 +1,7 @@
+.drop-container {
+    display: none;
+}
+
+.drop-container-visible {
+    display: block;
+}
