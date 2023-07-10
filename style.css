@@ -1,5 +1,34 @@
+:root {
+    --nav-bar-height: 60px;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: rgba(0, 255, 255, 0.438);
+    justify-content: space-around;
+    display: flex;
+    height: var(--nav-bar-height);
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
 .drop-container {
     display: none;
+    position: absolute;
+    top: var(--nav-bar-height);
 }
 
 .drop-container-visible {
