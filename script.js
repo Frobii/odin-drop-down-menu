@@ -4,7 +4,7 @@ const activateDropMenu = () => {
     const dropMenusArray = Array.from(dropMenus);
 
     dropMenusArray.forEach((menu) => {
-      menu.addEventListener('mouseover', () => {
+      menu.addEventListener('mouseenter', () => {
         menu.firstElementChild.classList.add('drop-container-visible');
       });
     });
